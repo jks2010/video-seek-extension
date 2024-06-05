@@ -1,0 +1,21 @@
+{
+    "name": "Video Seek",
+    "action": {},
+    "manifest_version": 3,
+    "version": "0.1",
+    "description": "A simple extension to seek the video by 5 seconds by pressing using the arrow keys",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "host_permissions":[
+      "<all_urls>"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": { "16": "icon16.png",
+      "48": "icon48.png",
+     "128": "icon128.png" }
+    
+  }
